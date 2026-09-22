@@ -1,0 +1,35 @@
+{
+  "entity_type": "requirement",
+  "entity_id": "REQ-staff-and-patient-authentication",
+  "assigned_to": "8I5g2LKf6Dg3lf7F8yuWUbfS0vC2",
+  "status": "pending",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "text",
+      "text": "How do patients obtain login credentials? The blueprint states patients are registered into the system by staff before the patient ever logs in themselves (\"Patient Registration, without patient login\"), but it does not say how the patient subsequently gets access - e.g. self-signup via mobile number/OTP, a hospital-issued temporary password, an invite link sent by staff, etc.",
+      "required": true,
+      "answer": null,
+      "answered_by": null,
+      "answered_at": null
+    },
+    {
+      "id": "q2",
+      "type": "text",
+      "text": "The blueprint lists the Identity Service responsibility as \"Authentication, session/JWT, RBAC\" and separately flags \"Sign up vs Sign in\" as an open decision with no elaboration. Should this requirement cover only sign-in (login) for accounts already provisioned by Hospital Admin/staff, or does it also need to cover a hospital self-registration/sign-up flow (e.g. for a new Hospital Admin during onboarding)?",
+      "required": true,
+      "answer": null,
+      "answered_by": null,
+      "answered_at": null
+    },
+    {
+      "id": "q3",
+      "type": "text",
+      "text": "Should authentication use JWT, server-side sessions, or both together (e.g. JWT access token + refresh session)? If JWT, what is the intended token/session expiry and refresh behavior?",
+      "required": true,
+      "answer": null,
+      "answered_by": null,
+      "answered_at": null
+    }
+  ]
+}
