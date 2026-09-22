@@ -2,7 +2,7 @@
   "entity_type": "requirement",
   "entity_id": "REQ-staff-and-patient-authentication",
   "assigned_to": "8I5g2LKf6Dg3lf7F8yuWUbfS0vC2",
-  "status": "pending",
+  "status": "completed",
   "questions": [
     {
       "id": "q1",
@@ -36,9 +36,9 @@
       "type": "text",
       "text": "No Applications are registered yet under this project (prj-test-maternity) - GET /api/projects/prj-test-maternity/apps returns an empty list. A Work Item cannot be created without an applicationId. Which application should this Identity Service / sign-in work item belong to - e.g. a new \"Identity Service\" backend app, an existing/planned staff web app, a patient mobile app, or some other application? If the application does not exist yet in the system, please create it (or tell me its intended name/id) so the Work Item can reference it.",
       "required": true,
-      "answer": null,
-      "answered_by": null,
-      "answered_at": null
+      "answer": "id=2",
+      "answered_by": "8I5g2LKf6Dg3lf7F8yuWUbfS0vC2",
+      "answered_at": "2026-09-22T11:43:38.233Z"
     }
   ]
 }
